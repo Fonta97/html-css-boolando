@@ -18,12 +18,12 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-
 }
 
 .textcontainer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .headerlinks {
@@ -35,4 +35,36 @@ body {
 .booleanlogo {
     max-width: 30%;
     max-height: 30%;
+}
+
+/* main css */
+.maincontainer {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+
+.item {}
+
+.sku {
+    position: relative;
+}
+
+.boxheart {
+    position: absolute;
+    font-size: 25px;
+    background-color: white;
+    padding: 1% 2%;
+    right: 0;
+    top: 1%;
 }
