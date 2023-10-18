@@ -63,12 +63,12 @@ header {
 
 .column img {
     width: 100%;
+    height: 400px;
 }
 
 .column {
-    display: flex;
     flex-basis: calc((100%/3)-10px);
-    margin: 5px
+    margin: 5px;
 }
 
 .sku {
