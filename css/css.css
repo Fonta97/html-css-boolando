@@ -12,23 +12,16 @@ body {
 
 
 /* header css */
-
-header {
-    max-width: 100%;
-    margin: 0 auto;
-}
-
 .headercontainer {
-    width: 100%;
     background-color: #fe6901;
     color: white;
     display: flex;
     justify-content: center;
-    text-align: center;
 }
 
 .textcontainer {
     display: flex;
+    width: 40%;
     justify-content: space-between;
     align-items: center;
 }
@@ -46,9 +39,10 @@ header {
 
 /* main css */
 .maincontainer {
-    max-width: 50%;
     display: flex;
+    width: 70%;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin: 0 auto;
 
@@ -56,10 +50,9 @@ header {
 
 .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    max-width: 100%;
-    padding: 5% 0;
+    margin-top: 3%;
 }
 
 .column img {
@@ -83,4 +76,78 @@ header {
     padding: 1% 2%;
     right: 0;
     top: 1%;
+}
+
+.boxlabels {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    bottom: 3%;
+    left: 0;
+}
+
+.sale {
+    color: white;
+    background-color: red;
+    padding: 2% 3%;
+    margin-right: 3%;
+}
+
+.Sostenibilità {
+    color: white;
+    background-color: green;
+    padding: 2% 3%;
+}
+
+.description {}
+
+.brand {}
+
+.typeitem {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pricefinal {
+    color: red;
+    font-weight: bold;
+}
+
+.pricebefore {
+    text-decoration-line: line-through;
+    font-weight: bold;
+}
+
+/* footer css */
+.footercontainer {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    padding: 1%;
+}
+
+.footertextcontainer {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerlinks {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.columnfootericons {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlinks {
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
 }
