@@ -1,0 +1,38 @@
+/* generic css */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+/* header css */
+.headercontainer {
+    width: 100%;
+    background-color: #fe6901;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.textcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerlinks {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.booleanlogo {
+    max-width: 30%;
+    max-height: 30%;
+}
